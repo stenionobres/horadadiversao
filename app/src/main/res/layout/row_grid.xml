@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="-30dp"
+    android:paddingLeft="-30dp"
+    android:paddingTop="-30dp">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/galinhapintadinha"
+        android:adjustViewBounds="true"
+        android:padding="7dp"
+        android:scaleType="fitXY"
+        android:paddingLeft="1.2dp"
+        android:paddingTop="1.2dp">
+    </ImageView>
+
+</LinearLayout>
